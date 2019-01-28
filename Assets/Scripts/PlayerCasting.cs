@@ -14,6 +14,9 @@ public class PlayerCasting : MonoBehaviour
         if(Physics.Raycast (transform.position, transform.TransformDirection(Vector3.forward), out Hit)){
             ToTarget = Hit.distance;
             DistanceFromTarget = ToTarget;
+            Interactable interactable = Hit.collider.GetComponent<Interactable>();
         }
     }
+
+
 }

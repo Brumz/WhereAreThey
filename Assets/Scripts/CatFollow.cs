@@ -16,7 +16,7 @@ public class CatFollow : MonoBehaviour {
         if(Physics.Raycast(transform.position,transform.TransformDirection(Vector3.forward),out Shot)) {
             TargetDistance = Shot.distance;
             if(TargetDistance >= AllowedDistance){
-                FollowSpeed = 0.2f;
+                FollowSpeed = 0.5f;
                 //TheNPC.GetComponent<Animation().Play("run");
                 transform.position = Vector3.MoveTowards(transform.position, ThePlayer.transform.position, FollowSpeed);
             }
