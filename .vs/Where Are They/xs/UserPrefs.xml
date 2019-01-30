@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{ED8324EE-A307-A899-B641-E5532A5BD6BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Quests/Quest001/Q001Obj003.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Quests/Quest001Take.cs">
     <Files>
-      <File FileName="Assets/Scripts/Quests/Quest001/Q001Obj003.cs" Line="6" Column="24" />
+      <File FileName="Assets/Scripts/Quests/Quest001/Q001Obj003.cs" Line="48" Column="14" />
+      <File FileName="Assets/Scripts/Quests/Quest001Buttons.cs" Line="32" Column="40" />
+      <File FileName="Assets/Scripts/Quests/Quest001Complete.cs" Line="12" Column="30" />
+      <File FileName="Assets/Scripts/GlobalExp.cs" Line="7" Column="34" />
+      <File FileName="Assets/Scripts/Quests/Quest001Take.cs" Line="5" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -12,6 +12,8 @@ public class Q001Obj003 : MonoBehaviour {
     public GameObject ActionDisplay;
     public GameObject TheObjective;
     public int CloseObjective;
+    public GameObject ExMark;
+    public GameObject QuestComplete;
 
 	
 	
@@ -52,6 +54,8 @@ public class Q001Obj003 : MonoBehaviour {
                 CloseObjective = 3;
                 ActionText.SetActive(false);
                 ActionDisplay.SetActive(false);
+                ExMark.SetActive(true);
+                QuestComplete.SetActive(true);
             }
         }
     }

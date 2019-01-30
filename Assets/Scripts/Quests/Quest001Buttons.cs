@@ -12,6 +12,9 @@ public class Quest001Buttons : MonoBehaviour {
     public GameObject Objective001;
     public GameObject Objective002;
     public GameObject Objective003;
+    public GameObject ExMark;
+    public GameObject TheNotice;
+    public GameObject NoticeTrigger;
 
 
     public void AcceptQuest ()
@@ -24,6 +27,9 @@ public class Quest001Buttons : MonoBehaviour {
 
     IEnumerator SetQuestUI()
     {
+        ExMark.SetActive(false);
+        TheNotice.SetActive(false);
+        NoticeTrigger.SetActive(false);
         ActiveQuestBox.GetComponent<Text>().text = "My First Weapon";
         Objective001.GetComponent<Text>().text = "Reach the Hills";
         Objective002.GetComponent<Text>().text = "Open chest";
