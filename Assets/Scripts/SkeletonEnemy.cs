@@ -29,6 +29,8 @@ public class SkeletonEnemy : MonoBehaviour {
         SkeletonStatus = 7;
         yield return new WaitForSeconds(0.5f);
         TheSkeleton.GetComponent<Animation>().Play("Death");
+        yield return new WaitForSeconds(2.5f);
+        Destroy(gameObject);
 
     }
 }
